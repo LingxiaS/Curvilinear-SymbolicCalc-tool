@@ -48,7 +48,8 @@ if do_variable_expansion:
 @st.cache_data
 def execute_calculation(op_type, variable_name, v_type, n_comp_str, s_comp_str, _expansion_terms, order):
     rho, s, epsilon = sp.symbols('rho s epsilon')
-    K, n_vec, s_vec = sp.Function('K')(s), sp.symbols(r'\mathbf{n} \mathbf{s}') 
+    K = sp.Function('K')(s)
+    n_vec, s_vec = sp.symbols(r'\mathbf{n} \mathbf{s}')
     if v_type == "Scalar":
         phi = sp.sympify(0)
         if _expansion_terms:
