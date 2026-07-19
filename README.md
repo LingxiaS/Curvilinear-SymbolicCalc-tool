@@ -1,10 +1,10 @@
 # Curvilinear Symbolic Calculator Tool
 
-🚀 **Live Interactive Web App:** [https://curvilinear-symbolic-calc-tool.streamlit.app/](https://curvilinear-symbolic-calc-tool.streamlit.app/) 🚀
+### 🚀 **Interactive Web App:** [https://curvilinear-symbolic-calc-tool.streamlit.app/](https://curvilinear-symbolic-calc-tool.streamlit.app/) 🚀
 
 This repository implements a symbolic calculus engine and interactive web interface to perform asymptotic expansions for vector calculus operators in curvilinear coordinates. It is designed to automate the complex, multi-term mathematical expansions required for asymptotic analysis in phase-field modeling and related fields.
 
-### The Governing Mathematics
+### The Mathematics
 
 The tool calculates symbolic expansions for operators in a curvilinear coordinate system $(\rho, s)$. The spatial framework relies on a small parameter $\epsilon$ and curvature $K(s)$.
 
