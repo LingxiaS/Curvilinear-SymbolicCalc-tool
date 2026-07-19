@@ -20,16 +20,16 @@ $$\nabla \phi = \mathbf{n} \left(\frac{1}{\epsilon}\frac{\partial \phi}{\partial
 **Curvilinear Divergence:**
 $$\nabla \cdot \mathbf{V} = \frac{1}{\epsilon} \frac{\partial V_n}{\partial \rho} + \frac{1}{1 + \epsilon \rho K} \left( \frac{\partial V_s}{\partial s} + K V_n \right)$$
 
-### Web Interface Screenshot
+## Web Interface Screenshot
 ![Curvilinear UI Screenshot](docs/ui_screenshot.png) 
 
-### Project Architecture
+## Project Architecture
 
 * `core/symbolic_engine.py` : The backend SymPy engine containing the curvilinear expansion calculus logic.
 * `app.py` : The Streamlit front-end architecture for the interactive web deployment.
 * `requirements.txt` : Dependency definitions for Python environment reproduction.
 
-### Installation
+## Installation
 
 ```bash
 git clone https://github.com/LingxiaS/Curvilinear-SymbolicCalc-tool.git
