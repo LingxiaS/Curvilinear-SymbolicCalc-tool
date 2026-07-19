@@ -1,0 +1,9 @@
+# Local exploratory scripts
+_local_script_during_explore/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
