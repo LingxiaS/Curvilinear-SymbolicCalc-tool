@@ -10,3 +10,4 @@ __pycache__/
 
 # System files and Jupyter checkpoints
 .ipynb_checkpoints/
+.ipynb_checkpoints/
